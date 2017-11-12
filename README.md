@@ -56,3 +56,10 @@ JSON support any kind of hierarchy appropriate to most applications’ data mode
 Some datatypes:
 String, Int, Float, Bool, Object, Array, Whitespace
 _____________________________________________________
+
+# UNIT 2
+## MongoDB Query Language/Shell
+The mongo shell is a MongoDB client that is text-based. It supports a number of functions and support features that empower the Mongo query language. This is the usual method that developers will use in order to talk to MongoDB.
+
+## Intro to CRUD
+C.R.U.D Operations, which stand for create, read, update, and destroy, are an acronym for the basic functions that are usually done to read and manipulate databases.
