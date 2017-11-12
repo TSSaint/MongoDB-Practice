@@ -63,3 +63,12 @@ The mongo shell is a MongoDB client that is text-based. It supports a number of 
 
 ## Intro to CRUD
 C.R.U.D Operations, which stand for create, read, update, and destroy, are an acronym for the basic functions that are usually done to read and manipulate databases.
+
+## Jumping into Compass w/ Mongo
+Run this command. <br>
+Specify which database you want to jump into after the URL (27017/#DATABASEHERE#?):
+```mongo
+mongo "mongodb://cluster0-shard-00-00-jxeqq.mongodb.net:27017,cluster0-shard-00-01-jxeqq.mongodb.net:27017,cluster0-shard-00-02-jxeqq.mongodb.net:27017/test?replicaSet=Cluster0-shard-0" --authenticationDatabase admin --ssl --username m001-student --password m001-mongodb-basics
+```
+
+
